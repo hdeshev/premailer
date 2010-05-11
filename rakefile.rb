@@ -70,7 +70,7 @@ end
 
 spec = Gem::Specification.new do |s| 
   s.name = 'premailer'
-  s.version = '1.5.5'
+  s.version = '1.5.5.1'
   s.author = 'Alex Dunae '
   s.homepage = 'http://github.com/alexdunae/premailer/'
   s.platform = Gem::Platform::RUBY
