@@ -75,7 +75,7 @@ spec = Gem::Specification.new do |s|
   s.homepage = 'http://github.com/alexdunae/premailer/'
   s.platform = Gem::Platform::RUBY
   s.summary = 'A set of classes for generating email-friendly HTML. A quick and dirty release off the latest master branch on GitHub done by Hristo Deshev.'
-  s.files = FileList['lib/*.rb', 'lib/**/*.rb', 'test/**/*'].to_a
+  s.files = FileList['lib/*.rb', 'lib/**/*.rb', 'bin/**/*', 'misc/**/*', 'test/**/*'].to_a
   s.test_files = Dir.glob('test/test_*.rb') 
   s.has_rdoc = true
   s.rdoc_options << '--all' << '--inline-source' << '--line-numbers'
